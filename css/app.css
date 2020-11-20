@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "HK Grotesk";
+    src: url("/fonts/HKGrotesk-Bold.woff2") format("woff2"), url("/fonts/HKGrotesk-Bold.woff") format("woff");
+}
+
+body {
+    font-family: "HK Grotesk", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 1.25;
+    background-color: white;
+    color: #333333;
+}
+
+.progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 10px;
+    background-color: #333333;
+    z-index: 1;
+    transition: background-color 0.25s ease;
+}
+
+.progress.white {
+    background-color: white;
+}
+
+header {
+    position: fixed;
+    top: 36px;
+    left: 36px;
+    z-index: 1;
+    transition: color 0.25s ease;
+}
+
+header.white {
+    color: white;
+}
+
+section {
+    background-color: #2D0F14;
+    min-height: 100vh;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    max-width: 70%;
+}
+
+.content img {
+    position: relative;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #d54156;
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #5982a0;
+    position: absolute;
+    bottom: 50px;
+    right: -50px;
+    border-radius: 50%;
+}
+
+section.s2 {
+    background-color: #B7BFCC;
+}
+
+section.s2 .square {
+    background-color: #d6ac35;
+}
+
+section.s2 .circle {
+    background-color: #be3c52;
+}
+
+section.s3 {
+    background-color: #074000;
+}
+
+section.s3 .square {
+    background-color: #5f3736;
+}
+
+section.s3 .circle {
+    background-color: #6e5f67;
+}
+
+section.s4 {
+    background-color: #41423D;
+}
+
+section.s4 .square {
+    background-color: #d54156;
+}
+
+section.s4 .circle {
+    background-color: #5982a0;
+}
